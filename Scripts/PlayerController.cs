@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        //bariere çarptýðýnda çalýþacak fonksiyon
+        //bariere Ã§arptÃ½Ã°Ã½nda Ã§alÃ½Ã¾acak fonksiyon
         if(other.collider.CompareTag("Barier"))
         {
             gameManager.RespawnPlayer();
